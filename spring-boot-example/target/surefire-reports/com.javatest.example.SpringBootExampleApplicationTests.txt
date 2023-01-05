@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.javatest.example.SpringBootExampleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.578 s <<< FAILURE! - in com.javatest.example.SpringBootExampleApplicationTests
+insertMessage  Time elapsed: 0.028 s  <<< ERROR!
+jakarta.servlet.ServletException: Request processing failed: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.javatest.example.SpringBootExampleApplicationTests.insertMessage(SpringBootExampleApplicationTests.java:117)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.javatest.example.SpringBootExampleApplicationTests.insertMessage(SpringBootExampleApplicationTests.java:117)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.javatest.example.SpringBootExampleApplicationTests.insertMessage(SpringBootExampleApplicationTests.java:117)
+
